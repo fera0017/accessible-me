@@ -1,6 +1,8 @@
 <!DOCTYPE html>
+<!-- AI use: Here is my HTML. List only the semantic HTML issues (wrong or missing elements, heading hierarchy, form labels, image alt text). 
+Do not rewrite my code or give me the fixed version. 
+For each issue, give the line, the problem, and which HTML element or attribute to look up. -->
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,19 +16,23 @@
 
 <body>
   <div class="container">
-    <div class="site-header">
+   <!--change div site-header to header beacause it  is a generic box not a page header  -->
+    <header class="site-header">
       <h1>Jam Box Studios</h1>
-      <div class="main-nav">
+        <!--change div main-nav to nav beacause it  wraps  menu links but isn’t marked as navigation -->
+      <nav class="main-nav">
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">Products</a></li>
           <li><a href="#">Reservation</a></li>
           <li><a href="#">Studio</a></li>
         </ul>
-      </div>
-      <img src="https://placekitten.com/1200/900" class="banner">
-    </div>
-    <div class="main-content">
+       </nav>
+       <!--add the alt to the image tag   -->
+     <img src="https://placekitten.com/1200/900" class="banner" alt="random image every time">
+     </header>
+     <!--change div main-content to main  -->
+   <main class="main-content">
       <h1>Welcome to Jam Box</h1>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam praesentium nostrum ipsa eveniet, officia deserunt cumque eius esse enim, ipsam accusantium autem nihil quaerat sequi perferendis optio quia veritatis.</p>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perferendis expedita sed itaque odit ipsam omnis, eos voluptates magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto error voluptatibus.</p>
@@ -58,10 +64,11 @@
           <button type="submit">Send</button>
         </form>
       </div>
-    </div>
-    <div class="site-footer">
+   </main>
+    <!--change div site-footer to footer  -->
+    <footer class="site-footer">
       &copy; 2021 Jam Box Studios
-    </div>
+   </footer>
   </div>
 </body>
 
