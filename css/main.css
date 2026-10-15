@@ -2,7 +2,8 @@
    I also tested by hand with the WebAIM Contrast Checker
    Black on grey (text) 5.31:1	 which Pass the 4.5:1 minimum. 
    The button border uses the same colors and only needs 3:1, so it pass too 
-   I left these colors as is beacause they pass the test */
+   I left these colors as is beacause they pass the test  */
+/* in the last question we change colors nd re run the test to confirm no error */
 
 
 /* change the page color*/
