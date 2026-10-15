@@ -63,6 +63,7 @@ form textarea {
   padding: .5rem 1rem;
   border: 2px solid #595959;
   border-radius: 6px;
+  box-sizing: border-box;
 }
 
 form textarea {
