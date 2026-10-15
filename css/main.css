@@ -75,7 +75,8 @@ form button {
 .site-footer {
   padding: 2rem 0;
 }
-/* add skip links css so that they appear correctly*/
+/* add skip links css so that they appear correctly They’re hidden off-screen on purpose
+and only appear when a keyboard user focuses them. */
 .skip-link {
   position: absolute;
   left: -9999px;
