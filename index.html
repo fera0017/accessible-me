@@ -15,6 +15,9 @@ For each issue, give the line, the problem, and which HTML element or attribute 
 </head>
 
 <body>
+  <!--add skip links  -->
+  <a href="#main" class="skip-link">Skip to Main section</a>
+  <a href="#contact" class="skip-link">Skip to Contact section</a>
   <div class="container">
    <!--change div site-header to header beacause it  is a generic box not a page header  -->
     <header class="site-header">
@@ -32,7 +35,8 @@ For each issue, give the line, the problem, and which HTML element or attribute 
      <img src="https://picsum.photos/1200/900" class="banner" alt="random image every time">
      </header>
      <!--change div main-content to main  -->
-   <main class="main-content">
+    <!--add id to tag so that it link to it  -->
+   <main class="main-content" id="main">
       <h1>Welcome to Jam Box</h1>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam praesentium nostrum ipsa eveniet, officia deserunt cumque eius esse enim, ipsam accusantium autem nihil quaerat sequi perferendis optio quia veritatis.</p>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perferendis expedita sed itaque odit ipsam omnis, eos voluptates magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto error voluptatibus.</p>
@@ -52,7 +56,8 @@ For each issue, give the line, the problem, and which HTML element or attribute 
           B3T 0L0
         </p>
       </div>
-      <div class="contact-section">
+     <!--add id to tag so that it link to it  -->
+      <div class="contact-section" id="contact">
         <h1>Contact Us</h1>
         <form action="thanks.html">
            <!--add missing form labels -->
