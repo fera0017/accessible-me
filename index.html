@@ -40,21 +40,23 @@ For each issue, give the line, the problem, and which HTML element or attribute 
       <h1>Welcome to Jam Box</h1>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam praesentium nostrum ipsa eveniet, officia deserunt cumque eius esse enim, ipsam accusantium autem nihil quaerat sequi perferendis optio quia veritatis.</p>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perferendis expedita sed itaque odit ipsam omnis, eos voluptates magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto error voluptatibus.</p>
-      <div class="owner">
+    <!-- Add schema.org microdata for owner and address  -->
+     <div class="owner" itemscope itemtype="https://schema.org/Person">
         <h1>Meet the owner</h1>
         <ul>
-          <li>Name: John Doe</li>
-          <li>Title: CEO</li>
-          <li>Email: johnjoe@jambox.ca</li>
-          <li>Phone: 613-000-0000</li>
+          <li>Name: <span itemprop="name">John Doe</span></li>
+          <li>Title: <span itemprop="jobTitle">CEO</span></li>
+          <li>Email: <span itemprop="email">johnjoe@jambox.ca</span></li>
+          <li>Phone: <span itemprop="telephone">613-000-0000</span></li>
         </ul>
         <h1>Address</h1>
-        <p>
-          Jambox Studios
-          123 Guitar Road,
-          Musicville, Danceistan
-          B3T 0L0
-        </p>
+       <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+         Jambox Studios<br>
+         <span itemprop="streetAddress">123 Guitar Road</span>,<br>
+         <span itemprop="addressLocality">Musicville</span>,
+         <span itemprop="addressCountry">Danceistan</span><br>
+         <span itemprop="postalCode">B3T 0L0</span>
+</address>
       </div>
      <!--add id to tag so that it link to it  -->
       <div class="contact-section" id="contact">
