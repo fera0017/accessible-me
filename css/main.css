@@ -75,7 +75,7 @@ form button {
 .site-footer {
   padding: 2rem 0;
 }
-
+/* add skip links css so that they appear correctly*/
 .skip-link {
   position: absolute;
   left: -9999px;
