@@ -73,8 +73,6 @@ form textarea {
 }
 
 form button {
-  background: none;
-  border: 2px solid black;
   padding: 1rem;
   text-transform: uppercase;
   background-color: #1a237e;
