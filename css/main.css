@@ -75,3 +75,20 @@ form button {
 .site-footer {
   padding: 2rem 0;
 }
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+}
+
+.skip-link:focus {
+  left: 1rem;
+  top: 1rem;
+  padding: .5rem 1rem;
+  background-color: #000000; 
+  color: #ffffff;
+}
+
+.skip-link:nth-of-type(2):focus {
+  top: 3.5rem;
+}
